@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    color: rgb(163, 174, 184);
+}
+
+div.price{
+    width: 100%;
+    max-width: 640px;
+    margin: 20px auto;
+    background-color: #418514;
+}
+
+h1{
+    padding: 20px 25px;
+    color:aliceblue;
+    font-size: 27px;
+}
+
+table{
+    background: #333333;
+    width: 100%;
+    max-width: 640px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+td{
+    border-bottom: 1px solid rgb(117, 110, 110);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+     font-weight: 300;
+}
+
+td:nth-child(2){
+    padding: 5px 20px;
+    border-left: 1px dotted rgb(117, 110, 110);
+    border-right: 1px dotted rgb(117, 110, 110);
+}
+
+td:nth-child(1){
+    text-align: right;
+    padding-right: 15px;
+}
+
+.special td{
+    background: #131313;
+    padding-top: 20px;
+    font-weight: 600;
+}
+.first{
+    color: aliceblue;
+}
+.gold{
+    color: yellow;
+}
+.platinum{
+    color: aqua;
+}
+
+span{
+    font-size: 20px ;
+}
+.month{
+    font-size: 10px;
+    font-style: italic;
+}
